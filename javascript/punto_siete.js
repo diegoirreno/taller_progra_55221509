@@ -1,27 +1,22 @@
 
 function esEnteroPositivo(numero) {
-    var numA = parseFloat(document.getElementById("numeroA").value);
-    var numB = parseFloat(document.getElementById("numeroB").value);
-     var resultado = document.getElementById("resultado");
+    return Number.isInteger(numero) && numero > 0;
 }
-
-
-
 function verificarDivisibilidad() {
-   
-   
-    if (!esEnteroPositivo(numA) || !esEnteroPositivo(numB)) {
+    var numeroA = parseInt(document.getElementById("numeroA").value);
+    var numeroB = parseInt(document.getElementById("numeroB").value);
+
+    if (!esEnteroPositivo(numeroA) || !esEnteroPositivo(numeroB)) {
         alert("Por favor, ingrese dos números enteros positivos.");
-        return false;
-    }else{
-       
-        if (numA % numB == 0) {
-            resultado.innerHTML = "El " + numA + " es divisible entre " + numB;
-        } else {
-            resultado.innerHTML = "El " + numA + " no es divisible entre " + numB;
-        }
         return false;
     }
 
-   
+    var resultado = document.getElementById("resultado");
+    if (numeroA % numeroB == 0) {
+        resultado.innerHTML = "El número " + numeroA + " es divisible entre el número " + numeroB;
+    } else {
+        resultado.innerHTML = "El número " + numeroA + " no es divisible entre el número " + numeroB;
+    }
+
+    return false;
 }

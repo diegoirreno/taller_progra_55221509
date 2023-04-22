@@ -11,7 +11,7 @@ function identificar() {
             } else {
                 resultado.innerHTML += "<span class='impar'>" + num + " es número impar</span><br>";
             }
-        }else if(Number.isInteger(num)){
+        }else if(num < 0 && !Number.isInteger(num)){
             resultado.innerHTML += "<span class='noentero'>" + numeros[i].trim() + " no es un número entero positivo</span><br>";
         } else {
             resultado.innerHTML += "<span class='noentero'>" + numeros[i].trim() + " no es un número entero</span><br>";
