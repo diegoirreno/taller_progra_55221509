@@ -1,6 +1,10 @@
+*{
+    color: white;
+}
+
 .menu {
     height: 100vh;
-    display: grid;
+    display: grid ;
     gap: 1rem;
     grid-template-areas: "punto_uno punto_uno punto_dos punto_dos"
         "punto_tres punto_tres punto_cuatro punto_cuatro"
@@ -17,7 +21,7 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-   
+    border: 5px solid white;
 }
 
 .menu .punto_dos {
@@ -26,6 +30,7 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
+    border: 5px solid white;
 }
 
 .menu .punto_tres {
@@ -34,7 +39,7 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-   
+    border: 5px solid white;
 }
 
 .menu .punto_cuatro {
@@ -43,7 +48,7 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-    
+    border: 5px solid white;
 }
 
 .menu .punto_cinco {
@@ -52,7 +57,7 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-
+    border: 5px solid white;
 }
 
 .menu .punto_seis {
@@ -61,7 +66,7 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-   
+    border: 5px solid white;
 }
 
 .menu .punto_siete {
@@ -70,7 +75,7 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
- 
+    border: 5px solid white;
 }
 
 .menu .punto_ocho {
@@ -79,5 +84,13 @@
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-    
+    border: 5px solid white;
 }
+
+body {
+    background: url(https://www.xtrafondos.com/wallpapers/sub-zero-mortal-kombat-2020-6400.jpg);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+
