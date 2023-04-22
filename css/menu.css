@@ -1,0 +1,83 @@
+.menu {
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: "punto_uno punto_uno punto_dos punto_dos"
+        "punto_tres punto_tres punto_cuatro punto_cuatro"
+        "punto_cinco punto_cinco punto_seis punto_seis"
+        "punto_siete punto_siete punto_ocho punto_ocho";
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1.5fr 1.5fr 1.5fr 1.5fr;
+   
+}
+
+.menu .punto_uno {
+    grid-area: punto_uno;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+.menu .punto_dos {
+    grid-area: punto_dos;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.menu .punto_tres {
+    grid-area: punto_tres;
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+.menu .punto_cuatro {
+    grid-area: punto_cuatro;
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+.menu .punto_cinco {
+    grid-area: punto_cinco;
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.menu .punto_seis {
+    grid-area: punto_seis;
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+.menu .punto_siete {
+    grid-area: punto_siete;
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+ 
+}
+
+.menu .punto_ocho {
+    grid-area: punto_ocho;
+    color: #ccc;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
